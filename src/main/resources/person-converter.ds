@@ -1,0 +1,24 @@
+/** DataSonnet
+version=3.0
+default=null
+input body application/json
+output application/json
+*/
+
+{
+  count: std.length(body),
+  items: [
+    {
+      name: person.name,
+      age: person.age,
+      address: {
+        streetLine: person.street,
+        postalCode: person.zipCode,
+        city: person.city,
+        area: person.department,
+        country: if person.countryCode != null then COUNTRIES[person.countryCode] else "N/A"
+      }
+    }
+    for person in body
+  ]
+}

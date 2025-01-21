@@ -1,0 +1,32 @@
+{
+  "count": 3,
+  "items": [
+    {
+      "name": "Alice in Wonderland",
+      "age": 34,
+      "address": null
+    },
+    {
+      "name": "Bob Marley",
+      "age": 34,
+      "address": {
+        "streetLine": "56 Hope road",
+        "postalCode": "KINGSTON 6",
+        "city": "KINGSTON",
+        "area": "KINGSTON PARISH",
+        "country": "Jamaica"
+      }
+    },
+    {
+      "name": "Harry Potter",
+      "age": 14,
+      "address": {
+        "streetLine": "4 Pivat Drive",
+        "postalCode": "SM6 7PZ",
+        "city": "WHINGING",
+        "area": "SURREY",
+        "country": "N/A"
+      }
+    }
+  ]
+}

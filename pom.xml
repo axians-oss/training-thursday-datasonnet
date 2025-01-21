@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>nl.axians</groupId>
+        <artifactId>camel-spring-boot-parent</artifactId>
+        <version>8</version>
+    </parent>{
+    "count": 3,
+    "items": [
+    {
+    "name": "Alice in Wonderland",
+    "age": 34,
+    "address": {
+    "streetLine": "Hogeweg 41",
+    "postalCode": "5301LJ",
+    "city": "ZALTBOMMEL",
+    "area": "GELDERLAND",
+    "country": "The Netherlands"
+    }
+    },
+    {
+    "name": "Bob Marley",
+    "age": 34,
+    "address": {
+    "streetLine": "56 Hope Road",
+    "postalCode": "KINGSTON 6",
+    "city": "KINGSTON",
+    "area": "KINGSTON PARISH",
+    "country": "Jamaica"
+    }
+    },
+    {
+    "name": "Harry Potter",
+    "age": 14,
+    "address": {
+    "streetLine": "4 Pivet Drive",
+    "postalCode": "SM6 7PZ",
+    "city": "WHINGING",
+    "area": "SURREY",
+    "country": "N/A"
+    }
+    }
+    ]
+    }
+
+    <groupId>io.athena.medmij</groupId>
+    <artifactId>datasonnet-excercises</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <spring-boot.version>3.3.7</spring-boot.version>
+        <camel-components.version>1.0.34</camel-components.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.axians.camel</groupId>
+            <artifactId>camel-datasonnet-starter</artifactId>
+            <version>${camel-components.version}</version>
+        </dependency>
+    </dependencies>
+</project>

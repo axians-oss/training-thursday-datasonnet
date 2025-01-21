@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Alice in Wonderland",
+    "age": 34,
+    "street": "Hogeweg 41",
+    "zipCode": "5301LJ",
+    "city": "ZALTBOMMEL",
+    "department": "GELDERLAND",
+    "countryCode": "NL"
+  },
+  {
+    "name": "Bob Marley",
+    "age": 34,
+    "street": "56 Hope Road",
+    "zipCode": "KINGSTON 6",
+    "city": "KINGSTON",
+    "department": "KINGSTON PARISH",
+    "countryCode": "JM"
+  },
+  {
+    "name": "Harry Potter",
+    "age": 14,
+    "street": "4 Pivet Drive",
+    "zipCode": "SM6 7PZ",
+    "city": "WHINGING",
+    "department": "SURREY",
+    "countryCode": null
+  }
+]

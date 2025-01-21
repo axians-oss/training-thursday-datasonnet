@@ -1,0 +1,38 @@
+{
+  "count": 3,
+  "items": [
+    {
+      "name": "Alice in Wonderland",
+      "age": 34,
+      "address": {
+        "streetLine": "Hogeweg 41",
+        "postalCode": "5301LJ",
+        "city": "ZALTBOMMEL",
+        "area": "GELDERLAND",
+        "country": "The Netherlands"
+      }
+    },
+    {
+      "name": "Bob Marley",
+      "age": 34,
+      "address": {
+        "streetLine": "56 Hope Road",
+        "postalCode": "KINGSTON 6",
+        "city": "KINGSTON",
+        "area": "KINGSTON PARISH",
+        "country": "Jamaica"
+      }
+    },
+    {
+      "name": "Harry Potter",
+      "age": 14,
+      "address": {
+        "streetLine": "4 Pivet Drive",
+        "postalCode": "SM6 7PZ",
+        "city": "WHINGING",
+        "area": "SURREY",
+        "country": "N/A"
+      }
+    }
+  ]
+}

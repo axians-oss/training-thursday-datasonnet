@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<customers>
+    <customer>
+        <name>Alice in Wonderland</name>
+        <age>34</age>
+    </customer>
+    <customer>
+        <name>Bob Marley</name>
+        <age>34</age>
+        <address>
+            <streetLine>56 Hope road</streetLine>
+            <zipCode>KINGSTON 6</zipCode>
+            <city>KINGSTON</city>
+            <department>KINGSTON PARISH</department>
+            <countryCode>JM</countryCode>
+        </address>
+    </customer>
+    <customer>
+        <name>Harry Potter</name>
+        <age>14</age>
+        <address>
+            <streetLine>4 Pivat Drive</streetLine>
+            <zipCode>SM6 7PZ</zipCode>
+            <city>WHINGING</city>
+            <department>SURREY</department>
+            <countryCode />
+        </address>
+    </customer>
+</customers>

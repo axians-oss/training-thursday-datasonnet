@@ -1,0 +1,8 @@
+camel:
+  main:
+    name: 'camel'
+    source-location-enabled: true
+
+logging:
+  level:
+    root: INFO
